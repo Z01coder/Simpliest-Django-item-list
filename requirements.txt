@@ -1,2 +1,15 @@
+# Основные зависимости
 Django==5.2.4
+
+# Безопасность
+python-decouple==3.8
+django-ratelimit==4.1.0
+
+# Валидация и санитизация
+django-bleach==3.1.0
+bleach>=5.0.0,<6.0.0
+
+# Для проверки уязвимостей установите:
+# pip install safety pip-audit
+# Затем выполните: safety check или pip-audit
 

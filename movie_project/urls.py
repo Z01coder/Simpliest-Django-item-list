@@ -17,9 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import RedirectView
+from django.conf import settings
+
+# Изменяем заголовки админ-панели для безопасности
+admin.site.site_header = "Movie Project Administration"
+admin.site.site_title = "Movie Project Admin"
+admin.site.index_title = "Панель управления"
 
 urlpatterns = [
     path('', RedirectView.as_view(url='/films/list/', permanent=False), name='home'),
-    path('admin/', admin.site.urls),
+    # Изменяем стандартный URL админ-панели на менее очевидный
+    path(settings.ADMIN_URL_PATH, admin.site.urls),
     path('films/', include('films.urls')),
 ]
