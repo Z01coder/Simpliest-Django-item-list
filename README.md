@@ -3,6 +3,13 @@
 
 
 
+<!-- LANGUAGE SWITCHER -->
+<div align="right">
+  <strong>Язык:</strong> <a href="README.en.md">English</a> | <a href="README.md">Русский</a>
+</div>
+
+
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -18,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Simpliest Django Item List</h3>
+  <h3 align="center">Django Film Manager</h3>
 
   <p align="center">
     Простое Django приложение для управления списком фильмов
@@ -59,10 +66,9 @@
 <!-- ABOUT THE PROJECT -->
 ## О проекте
 
-![Превью](2.png)
-![Превью](1.png)
+![Превью](static/images/3g.webp)
 
-Simpliest Django Item List - это простое веб-приложение на Django для управления списком фильмов. Проект демонстрирует базовую функциональность CRUD операций с использованием Django framework.
+Django Film Manager - это простое веб-приложение на Django для управления списком фильмов. Проект демонстрирует базовую функциональность CRUD операций с использованием Django framework.
 
 ### Цели и задачи проекта
 
