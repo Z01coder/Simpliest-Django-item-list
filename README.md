@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of В начало link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 
 
@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Django Film Manager</h3>
+  <h1 align="center">Django Film Manager</h3>
 
   <p align="center">
     Простое Django приложение для управления списком фильмов
@@ -70,7 +70,8 @@
 
 Django Film Manager - это простое веб-приложение на Django для управления списком фильмов. Проект демонстрирует базовую функциональность CRUD операций с использованием Django framework.
 
-### Цели и задачи проекта
+<details>
+  <summary><strong>Цели и задачи проекта</strong></summary>
 
 **Цели:**
 * Создать простое и функциональное веб-приложение для управления списком фильмов
@@ -89,7 +90,10 @@ Django Film Manager - это простое веб-приложение на Dja
 * Настроить логирование событий безопасности
 * Создать кастомную команду для быстрого создания тестового пользователя
 
-### Результаты
+</details>
+
+<details>
+  <summary><strong>Результаты</strong></summary>
 
 **Реализованная функциональность:**
 * Просмотр списка фильмов (доступно всем пользователям)
@@ -108,7 +112,9 @@ Django Film Manager - это простое веб-приложение на Dja
 * Базовый шаблон с навигацией и улучшенным дизайном
 * Кастомная команда для создания тестового суперпользователя
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
+
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
@@ -124,12 +130,13 @@ Django Film Manager - это простое веб-приложение на Dja
 * `django-ratelimit==4.1.0` - для ограничения частоты запросов
 * `django-bleach==3.1.0` и `bleach>=5.0.0,<6.0.0` - для санитизации HTML контента
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Начало работы
+<details>
+  <summary><strong>Начало работы</strong></summary>
 
 Инструкции по установке и запуску проекта локально.
 
@@ -196,12 +203,15 @@ Django Film Manager - это простое веб-приложение на Dja
    - Главная страница: http://127.0.0.1:8000/films/list/
    - Админ-панель: http://127.0.0.1:8000/admin-panel-secure/
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
+
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Использование
+<details>
+  <summary><strong>Использование</strong></summary>
 
 Приложение предоставляет следующие страницы и функциональность:
 
@@ -236,7 +246,9 @@ Django Film Manager - это простое веб-приложение на Dja
 - Логирование событий безопасности
 - Настроенные заголовки безопасности
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
+
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
@@ -355,7 +367,7 @@ Django Film Manager - это простое веб-приложение на Dja
 - [ ] Написание unit-тестов
 - [ ] Настройка CI/CD pipeline
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
@@ -372,7 +384,7 @@ Django Film Manager - это простое веб-приложение на Dja
 4. Отправьте изменения в ветку (`git push origin feature/AmazingFeature`)
 5. Создайте Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
@@ -381,21 +393,39 @@ Django Film Manager - это простое веб-приложение на Dja
 
 Распространяется по лицензии MIT. Дополнительную информацию см. в файле `LICENSE`.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Контакты
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* [![GitHub][GitHub-badge]][GitHub-url]
+* [![Gmail][Gmail-badge]][Gmail-url]
+* [![Telegram][Telegram-badge]][Telegram-url]
+
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Благодарности
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Выражаю искреннюю благодарность университету [Zerocoder](https://zerocoder.ru/) и всей его команде за создание вдохновляющей и профессиональной образовательной среды. За подготовку "IT-астронавтов" на "космодроме" Зерокодер.
+
+Особая благодарность:
+
+[Кириллу Пшиннику](https://kpshinnik.ru/), директору университета, за вдохновение на подвиг;
+
+Преподавателям [Нине Стефанцовой](https://neural-courses.ru/teacher/nina-stefancova/), [Максиму Вершинину](https://neural-courses.ru/teacher/maksim-vershinin/) и [Дарье Бобровской](https://neural-courses.ru/teacher/darya-bobrovskaya/) — за глубокие знания, терпение и готовность всегда помочь;
+
+Никите Муркину, куратору курса, за чёткую организацию и наставничество;
+
+Елизавете, менеджеру, за заботу, оперативность и неизменную доброжелательность.
+
+Благодаря вам этот проект стал возможен!
+
+<p align="right">(<a href="#readme-top">В начало</a>)</p>
 
 
 
@@ -405,3 +435,9 @@ Django Film Manager - это простое веб-приложение на Dja
 [Django-url]: https://www.djangoproject.com/
 [Python-badge]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
+[GitHub-badge]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com/Z01coder
+[Gmail-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: mailto:zolotuxin.alexey@gmail.com
+[Telegram-badge]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+[Telegram-url]: https://t.me/AZVXAN
