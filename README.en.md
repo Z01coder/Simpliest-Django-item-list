@@ -69,7 +69,8 @@
 
 Django Film Manager is a simple Django web application for managing a film list. The project demonstrates basic CRUD functionality using the Django framework.
 
-### Project Goals and Objectives
+<details>
+  <summary><strong>Project Goals and Objectives</strong></summary>
 
 **Goals:**
 * Create a simple and functional web application for managing a film list
@@ -88,7 +89,10 @@ Django Film Manager is a simple Django web application for managing a film list.
 * Configure security event logging
 * Create a custom command for quick test user creation
 
-### Results
+</details>
+
+<details>
+  <summary><strong>Results</strong></summary>
 
 **Implemented Functionality:**
 * View film list (available to all users)
@@ -106,6 +110,8 @@ Django Film Manager is a simple Django web application for managing a film list.
 * HTML pages: film list and add form
 * Base template with navigation and improved design
 * Custom command for creating test superuser
+
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +134,8 @@ Additional dependencies:
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<details>
+  <summary><strong>Getting Started</strong></summary>
 
 Instructions for installing and running the project locally.
 
@@ -195,12 +202,15 @@ Below are instructions for installing and configuring the application.
    - Main page: http://127.0.0.1:8000/films/list/
    - Admin panel: http://127.0.0.1:8000/admin-panel-secure/
 
+</details>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<details>
+  <summary><strong>Usage</strong></summary>
 
 The application provides the following pages and functionality:
 
@@ -234,6 +244,8 @@ The application provides the following pages and functionality:
 - Rate limiting for critical operations
 - Security event logging
 - Configured security headers
+
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -387,12 +399,30 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
+* [![GitHub][GitHub-badge]][GitHub-url]
+* [![Gmail][Gmail-badge]][Gmail-url]
+* [![Telegram][Telegram-badge]][Telegram-url]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+
+I express my sincere gratitude to [Zerocoder University](https://zerocoder.ru/) and its entire team for creating an inspiring and professional educational environment. For preparing "IT-astronauts" at the Zerocoder "cosmodrome".
+
+Special thanks to:
+
+[Kirill Pshinnik](https://kpshinnik.ru/), director of the university, for inspiring achievements;
+
+Teachers [Nina Stefantsova](https://neural-courses.ru/teacher/nina-stefancova/), [Maxim Vershinin](https://neural-courses.ru/teacher/maksim-vershinin/), and [Darya Bobrovskaya](https://neural-courses.ru/teacher/darya-bobrovskaya/) — for deep knowledge, patience, and readiness to always help;
+
+Nikita Murkin, course curator, for clear organization and mentorship;
+
+Elizaveta, manager, for care, responsiveness, and unwavering kindness.
+
+Thanks to you, this project became possible!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -404,4 +434,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [Django-url]: https://www.djangoproject.com/
 [Python-badge]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
+[GitHub-badge]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com/Z01coder
+[Gmail-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Gmail-url]: mailto:zolotuxin.alexey@gmail.com
+[Telegram-badge]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+[Telegram-url]: https://t.me/AZVXAN
 
