@@ -20,8 +20,8 @@ from django.views.generic import RedirectView
 from django.conf import settings
 
 # Изменяем заголовки админ-панели для безопасности
-admin.site.site_header = "Movie Project Administration"
-admin.site.site_title = "Movie Project Admin"
+admin.site.site_header = "Кино Коллекция Administration"
+admin.site.site_title = "Кино Коллекция Admin"
 admin.site.index_title = "Панель управления"
 
 urlpatterns = [
